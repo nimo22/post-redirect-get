@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color:black;
+
+}
+span{
+    color:red;
+}
+table{
+    border: solid black;
+    width: 300px ;
+    height: 300px;
+    border-collapse:collapse;
+    margin: 15px 10px;
+}
+tr,th,td{
+border: solid black;
+text-align: center;
+
+}
+tr:nth-child(even){
+    background-color: black;
+    color:white;
+    
+}
+tr:nth-child(even)>td{
+    border:solid white 2px;
+}
